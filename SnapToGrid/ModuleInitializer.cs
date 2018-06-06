@@ -7,18 +7,18 @@ namespace SnapToGrid
     {
         public override void Init()
         {
-            FileLog.Log("Patching with " + typeof(ModuleInitializer).FullName);
+            //FileLog.Log("Patching with " + typeof(ModuleInitializer).FullName);
 
             try
             {
                 var harmony = HarmonyInstance.Create("cultistsimulatoruimod.snaptogrid");
                 harmony.PatchAll(Assembly.GetExecutingAssembly());
 
-                FileLog.Log("Working! " + typeof(ModuleInitializer).FullName);
+                //FileLog.Log("Working! " + typeof(ModuleInitializer).FullName);
             } 
             catch (System.Exception e)
             {
-                FileLog.Log(e.ToString());
+                //FileLog.Log(e.ToString());
             }
         }
     }

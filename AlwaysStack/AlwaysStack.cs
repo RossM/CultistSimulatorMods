@@ -18,7 +18,7 @@ namespace AlwaysStack
 
             foreach (var f in c.GetFields())
             {
-                FileLog.Log(string.Format("{0} = {1}", f.Name, f.GetValue(o).ToString()));
+                //FileLog.Log(string.Format("{0} = {1}", f.Name, f.GetValue(o).ToString()));
             }
         }
     }
@@ -30,7 +30,7 @@ namespace AlwaysStack
     {
         static bool Prefix(ElementStackToken __instance, Context context)
         {
-            FileLog.Log("ElementStackToken_ReturnToTabletop_Patch v2");
+            //FileLog.Log("ElementStackToken_ReturnToTabletop_Patch v2");
 
             if (Registry.Retrieve<ICompendium>().GetElementById(__instance.EntityId).Unique)
                 return true;
@@ -86,7 +86,7 @@ namespace AlwaysStack
                     // Manually combine stacks
                     stack.SetQuantity(stack.Quantity + token.Quantity);
                     token.Retire(false);
-                    FileLog.Log("__instance = " + __instance.SaveLocationInfo + " token = " + token.SaveLocationInfo + " stack = " + stack.SaveLocationInfo);
+                    //FileLog.Log("__instance = " + __instance.SaveLocationInfo + " token = " + token.SaveLocationInfo + " stack = " + stack.SaveLocationInfo);
                     return;
                 }
             }
