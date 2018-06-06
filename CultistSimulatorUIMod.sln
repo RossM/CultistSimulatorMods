@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.16
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SnapToGrid", "SnapToGrid\SnapToGrid.csproj", "{8D8FB02A-8CE1-4A7D-AAF1-452ED6EAF00B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlwaysStack", "AlwaysStack\AlwaysStack.csproj", "{01E5C040-260E-44A6-8E16-B858642FEE03}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8D8FB02A-8CE1-4A7D-AAF1-452ED6EAF00B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D8FB02A-8CE1-4A7D-AAF1-452ED6EAF00B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D8FB02A-8CE1-4A7D-AAF1-452ED6EAF00B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D8FB02A-8CE1-4A7D-AAF1-452ED6EAF00B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01E5C040-260E-44A6-8E16-B858642FEE03}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01E5C040-260E-44A6-8E16-B858642FEE03}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01E5C040-260E-44A6-8E16-B858642FEE03}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01E5C040-260E-44A6-8E16-B858642FEE03}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
